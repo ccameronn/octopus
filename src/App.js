@@ -18,7 +18,7 @@ function App() {
     // </BrowserRouter>
 
     <div className="page-container">
-      <main>Hello</main>
+      <main></main>
       <Footer className="footer" />
     </div>
   );
