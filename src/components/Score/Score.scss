@@ -1,0 +1,45 @@
+@use "../../styles/partials/mixins" as *;
+@use "../../styles/partials/variables" as *;
+@use "../../styles/partials/fonts" as *;
+
+.score-section {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: $Octo-Purple-Mid;
+  padding: 1rem;
+}
+
+.score-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: $Octo-Purple-Mid;
+}
+
+.score-number-container {
+  background-color: green;
+  border-radius: 50%;
+  width: 300px;
+  height: 300px;
+  aspect-ratio: 1;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.score-number {
+  background-color: rgba(0, 0, 0, 0);
+  font-size: 13rem;
+  color: $Octo-Purple-Mid;
+}
+
+.score-text {
+  font-size: 2.5rem;
+  color: $Octo-White;
+  margin: 1rem 0;
+  background-color: $Octo-Purple-Mid;
+}

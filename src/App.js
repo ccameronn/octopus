@@ -6,6 +6,7 @@ import React from "react";
 
 import Header from "./components/Header/Header";
 import Footer from "./components/Footer/Footer";
+import Score from "./components/Score/Score";
 
 function App() {
   return (
@@ -19,7 +20,11 @@ function App() {
 
     <div className="page-container">
       <Header />
-      <main></main>
+      <main>
+        <Score />
+        <Score />
+        <Score />
+      </main>
       <Footer className="footer" />
     </div>
   );
