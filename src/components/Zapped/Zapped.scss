@@ -1,0 +1,34 @@
+@use "../../styles/partials/mixins" as *;
+@use "../../styles/partials/variables" as *;
+@use "../../styles/partials/fonts" as *;
+
+.zapped-section {
+  background-color: $Octo-Purple-Mid;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.zapped-container {
+  background-color: $Octo-Purple-Mid;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+
+.zapped-title {
+  background-color: $Octo-Purple-Mid;
+  color: $Octo-Pink-Dark;
+  font-size: 3rem;
+  font-style: italic;
+}
+
+.divider {
+  background-color: $Octo-Blue-Dark;
+  width: 95%;
+  height: 1px;
+  margin: 1rem 0;
+}
