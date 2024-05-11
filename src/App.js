@@ -1,8 +1,8 @@
 import "./App.scss";
 import React from "react";
-import { BrowserRouter, Routes, Route } from "react-router-dom";
+// import { BrowserRouter, Routes, Route } from "react-router-dom";
 
-import HomePage from "./pages/HomePage/HomePage";
+// import HomePage from "./pages/HomePage/HomePage";
 
 import Header from "./components/Header/Header";
 import Footer from "./components/Footer/Footer";
@@ -18,6 +18,7 @@ function App() {
     // </BrowserRouter>
 
     <div className="page-container">
+      <Header />
       <main></main>
       <Footer className="footer" />
     </div>
