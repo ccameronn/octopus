@@ -22,8 +22,6 @@ function App() {
       <Header />
       <main>
         <Score />
-        <Score />
-        <Score />
       </main>
       <Footer className="footer" />
     </div>
