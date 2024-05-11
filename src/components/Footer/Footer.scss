@@ -18,11 +18,8 @@
       margin-bottom: 20px;
     }
 
-    .tiktok__icon,
-    .insta__icon,
-    .tweet__icon,
-    .fb__icon {
-      width: 2.5%;
+    .icon-img {
+      width: 3rem;
     }
 
     .copyrights {
@@ -30,7 +27,7 @@
     }
 
     p {
-      color: $Octo-White;
+      color: $Octo-Grey;
       margin: 7px 0 0 0;
       font-size: 1rem;
       line-height: 20px;
@@ -46,11 +43,8 @@
       margin-bottom: 20px;
     }
 
-    .tiktok__icon,
-    .insta__icon,
-    .tweet__icon,
-    .fb__icon {
-      width: 2.5%;
+    .icon-img {
+      width: 3rem;
     }
 
     .copyrights {
@@ -58,14 +52,14 @@
     }
 
     p {
-      color: $Octo-White;
+      color: $Octo-Grey;
       margin: 7px 0 0 0;
       font-size: 1rem;
       line-height: 20px;
     }
   }
 
-  @media screen and (max-width: 767px) {
+  @media screen and (max-width: $tablet-breakpoint) {
     .footer__container {
       margin: 8px;
     }
@@ -76,11 +70,8 @@
       gap: 25px;
     }
 
-    .tiktok__icon,
-    .insta__icon,
-    .tweet__icon,
-    .fb__icon {
-      width: 7%;
+    .icon-img {
+      width: 3rem;
     }
 
     .copyrights {
@@ -88,7 +79,7 @@
     }
 
     p {
-      color: $Octo-White;
+      color: $Octo-Grey;
       margin-bottom: 0.2rem;
       font-size: 1.2rem;
       font-weight: 400;

@@ -10,18 +10,31 @@ function Footer() {
     <footer className="footer">
       <div className="footer__container">
         <div className="footer__icon">
-          <img
-            src={tiktokIcon}
-            className="tiktok__icon"
-            alt="Follow us on TikTok"
-          />
-          <img
-            src={instaIcon}
-            className="insta__icon"
-            alt="Follow us on Instagram"
-          />
-          <img src={tweetIcon} className="tweet__icon" alt="Follow us on X" />
-          <img src={fbIcon} className="fb__icon" alt="Follow us on facebook" />
+          <a href="https://www.tiktok.com/@octopusenergy" target="_blank">
+            <img
+              src={tiktokIcon}
+              className="icon-img"
+              alt="Follow us on TikTok"
+            />
+          </a>
+          <a href="https://www.instagram.com/octopusenergy" target="_blank">
+            <img
+              src={instaIcon}
+              className="icon-img"
+              alt="Follow us on Instagram"
+            />
+          </a>
+          <a href="https://twitter.com/OctopusEnergy" target="_blank">
+            <img src={tweetIcon} className="icon-img" alt="Follow us on X" />
+          </a>
+          <a href="https://www.facebook.com/octopusenergy" target="_blank">
+            <img
+              src={fbIcon}
+              className="icon-img"
+              alt="Follow us on facebook"
+            />
+          </a>
+
           {/* <Link to="/">
           
         </Link>  */}
