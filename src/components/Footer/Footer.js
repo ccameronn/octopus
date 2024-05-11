@@ -2,7 +2,7 @@ import "./Footer.scss";
 import tiktokIcon from "../../assets/icons/tiktok-svgrepo-com.svg";
 //import { Link } from "react-router-dom";
 import instaIcon from "../../assets/icons/instagram-svgrepo-com.svg";
-import tweetIcon from "../../assets/icons/twitter-svgrepo-com.svg";
+import tweetIcon from "../../assets/icons/x-icon.png";
 import fbIcon from "../../assets/icons/facebook-svgrepo-com.svg";
 
 function Footer() {
