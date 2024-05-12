@@ -5,9 +5,7 @@ import { BrowserRouter, Routes, Route } from "react-router-dom";
 
 import Header from "./components/Header/Header";
 import Footer from "./components/Footer/Footer";
-import Score from "./components/Score/Score";
-import Zapped from "./components/Zapped/Zapped";
-import LeaderBoard from "./components/LeaderBoard/LeaderBoard";
+import Home from "./pages/HomePage/HomePage";
 
 function App() {
   return (
