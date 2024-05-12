@@ -12,24 +12,26 @@ function LeaderBoard() {
 
   return (
     <div className="leaderboard">
-      <div className="leaderboard__container">
-        <div>
-          <h1>Leaderboard</h1>
-        </div>
-        <div className="toggle__container">
-          <select
-            value={selectedOption}
-            onChange={handleOptionChange}
-            className="list__group"
-          >
-            <option value="">Select an option</option>
-            <option value="national">
-              <Link to="/national">National</Link>
-            </option>
-            <option value="local">Local</option>
-            <option value="friends">My Friends</option>
-            <option value="newGroup">+ New Group</option>
-          </select>
+      <div className="leaderboard__content">
+        <div className="leaderboard__container">
+          <div className="leaderboard__title">
+            <h1>Leaderboard</h1>
+          </div>
+          <div className="toggle__container">
+            <select
+              value={selectedOption}
+              onChange={handleOptionChange}
+              className="list__group"
+            >
+              <option value="">Select an option</option>
+              <option value="national">
+                <Link to="/national">National</Link>
+              </option>
+              <option value="local">Local</option>
+              <option value="friends">My Friends</option>
+              <option value="newGroup">+ New Group</option>
+            </select>
+          </div>
         </div>
       </div>
       {selectedOption && (
