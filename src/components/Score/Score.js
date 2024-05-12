@@ -1,4 +1,5 @@
 import "./Score.scss";
+import Ranking from "../Ranking/Ranking";
 
 const greennessScore = 73;
 
@@ -11,6 +12,7 @@ function Score() {
         </div>
         <h2 className="score-text">GREENNESS SCORE</h2>
       </div>
+      {/* <Ranking greennessScore={greennessScore} /> */}
     </section>
   );
 }

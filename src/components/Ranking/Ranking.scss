@@ -1,0 +1,65 @@
+.ranks__container {
+  background-color: #180048;
+  padding: 40px 0;
+}
+
+.ranking__container {
+  background-color: #180048;
+  width: 560px;
+  margin-left: auto;
+  margin-right: auto;
+  position: relative;
+}
+
+.rankings {
+  background-color: #100030;
+  border: 5px solid #3d1972;
+  border-radius: 70px 70px 70px 70px;
+  padding: 45px 100px;
+  position: relative;
+  margin-bottom: 15px;
+}
+
+.rankings p {
+  margin: 0;
+  //   padding: 0 0 0 0;
+  color: #fff;
+  position: absolute;
+  top: 71px;
+  left: 165px;
+  word-spacing: 5px;
+}
+
+.ranks {
+  background-color: #100030;
+  border: 5px solid #3d1972;
+  border-radius: 70px 70px 70px 70px;
+  padding: 58px 121px;
+
+  position: absolute;
+  top: 36px;
+  left: 0;
+  z-index: 2;
+  width: 317px;
+}
+
+.score-num {
+}
+
+// .score__number-container {
+//   background-color: green;
+//   border-radius: 50%;
+//   width: 100px;
+//   height: 100px;
+//   //   aspect-ratio: 1;
+//   display: flex;
+//   justify-content: center;
+//   align-items: center;
+// }
+
+// .score__number {
+//   background-color: rgba(0, 0, 0, 0);
+//   font-size: 4rem;
+//   color: #fff;
+//   margin: 0;
+// }
