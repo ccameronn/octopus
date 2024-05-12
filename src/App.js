@@ -11,16 +11,28 @@ import LeaderBoard from "./components/LeaderBoard/LeaderBoard";
 function App() {
   return (
     <BrowserRouter>
-      <div className="page-container">
+      <div className="container">
         <Header />
         <main>
-          <Score />
-          <LeaderBoard />
-          <Routes></Routes>
+          <Routes>
+            <Route path="/" element={<Home />} />
+          </Routes>
         </main>
-        <Footer className="footer" />
+        <Footer />
       </div>
     </BrowserRouter>
+
+    // <BrowserRouter>
+    //   <div className="container">
+    //     <Header />
+    //     <main>
+    //       <Routes>
+    //         <Route path="/" element={<Home />} />
+    //       </Routes>
+    //     </main>
+    //     <Footer />
+    //   </div>
+    // </BrowserRouter>
   );
 }
 
