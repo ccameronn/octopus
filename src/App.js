@@ -7,6 +7,7 @@ import React from "react";
 import Header from "./components/Header/Header";
 import Footer from "./components/Footer/Footer";
 import Score from "./components/Score/Score";
+import Zapped from "./components/Zapped/Zapped";
 
 function App() {
   return (
@@ -22,6 +23,7 @@ function App() {
       <Header />
       <main>
         <Score />
+        <Zapped />
       </main>
       <Footer className="footer" />
     </div>
