@@ -1,6 +1,7 @@
 @use "../../styles/partials/mixins" as *;
 @use "../../styles/partials/variables" as *;
 @use "../../styles/partials/fonts" as *;
+@use "../../styles/partials/resets" as *;
 
 .zapped-section {
   background-color: $Octo-Purple-Mid;
@@ -17,18 +18,141 @@
   justify-content: center;
   align-items: center;
   width: 100%;
+  padding: 2rem;
 }
 
 .zapped-title {
   background-color: $Octo-Purple-Mid;
   color: $Octo-Pink-Dark;
-  font-size: 3rem;
+  font-size: 4rem;
   font-style: italic;
+  margin: 0;
+
+  @include tablet {
+    font-size: 5rem;
+  }
+  @include desktop {
+    font-size: 7rem;
+  }
+}
+
+.zapped-sub-title {
+  background-color: $Octo-Purple-Mid;
+  color: $Octo-Pink-Light;
+  font-size: 1.2rem;
+  font-style: italic;
+  margin: 0 0 1rem 0;
+
+  @include tablet {
+    font-size: 1.6rem;
+  }
+  @include desktop {
+    font-size: 1.8rem;
+  }
+}
+
+.stat {
+  background-color: $Octo-Purple-Mid;
+  color: $Octo-White;
+  font-size: 1rem;
+  font-weight: 500;
+  margin: 1rem;
+  text-align: center;
+  transition: ease-in-out 0.3s;
+
+  &:hover {
+    transform: scale(1.1);
+  }
+
+  @include tablet {
+    font-size: 1.4rem;
+  }
+  @include desktop {
+    font-size: 2rem;
+  }
+}
+
+.stat-special {
+  background-color: $Octo-Purple-Mid;
+  color: $Octo-Green;
+  font-size: 4rem;
+  font-weight: 600;
+  margin: 0.5rem;
+
+  @include tablet {
+    font-size: 5rem;
+  }
+  @include desktop {
+    font-size: 7.5rem;
+  }
 }
 
 .divider {
-  background-color: $Octo-Blue-Dark;
-  width: 95%;
+  background-color: $Octo-Green;
+  width: 100%;
   height: 1px;
   margin: 1rem 0;
+}
+
+.octo-pic {
+  margin: 1rem;
+  width: 300px;
+}
+
+.greenness-score {
+  background-color: $Octo-Purple-Mid;
+  font-weight: 800;
+  transition: ease-in-out 0.2s;
+
+  &:hover {
+    color: $Octo-Green;
+  }
+
+  font-size: 2rem;
+
+  @include tablet {
+    font-size: 2.5rem;
+  }
+  @include desktop {
+    font-size: 4rem;
+  }
+}
+
+.octoplus {
+  background-color: $Octo-Purple-Mid;
+  font-weight: 800;
+  transition: ease-in-out 0.2s;
+
+  &:hover {
+    color: $Octo-Pink-Dark;
+  }
+
+  font-size: 2rem;
+
+  @include tablet {
+    font-size: 2.5rem;
+  }
+  @include desktop {
+    font-size: 4rem;
+  }
+}
+
+.greener-days-zapped {
+  background-color: $Octo-Purple-Mid;
+  color: $Octo-White;
+  font-size: 2rem;
+  font-weight: 800;
+  transition: 0.4s ease-in-out;
+
+  &:hover {
+    color: $Octo-Green;
+    cursor: pointer;
+  }
+
+  @include tablet {
+    font-size: 2.5rem;
+  }
+  @include desktop {
+    font-size: 4rem;
+  }
 }
