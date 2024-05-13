@@ -41,6 +41,10 @@ function Zapped() {
             Octoplus Points
           </a>
         </p>
+        <p className="stat">
+          YOUR MOST ACTIVE HOUR OF THE DAY IS{" "}
+          <span className="stat-special">7PM-8PM</span>
+        </p>
         <div className="divider"></div>
         <p className="stat">
           LAST WEEK YOU COULD HAVE SAVED{" "}
