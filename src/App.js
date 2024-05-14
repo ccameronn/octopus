@@ -5,7 +5,10 @@ import { BrowserRouter } from "react-router-dom";
 
 import Header from "./components/Header/Header";
 import Footer from "./components/Footer/Footer";
-import Home from "./pages/HomePage/HomePage";
+//import Home from "./pages/HomePage/HomePage";
+import Zapped from "./components/Zapped/Zapped";
+import Score from "./components/Score/Score";
+import LeaderBoard from "./components/LeaderBoard/LeaderBoard";
 
 function App() {
   return (
@@ -16,15 +19,17 @@ function App() {
     //     </Routes>
     //   </main>
     // </BrowserRouter>
-
-    <div className="page-container">
-      <Header />
-      <main>
-        <Score />
-        <Zapped />
-      </main>
-      <Footer className="footer" />
-    </div>
+    <BrowserRouter>
+      <div className="page-container">
+        <Header />
+        <main>
+          <Score />
+          <LeaderBoard />
+          <Zapped />
+        </main>
+        <Footer className="footer" />
+      </div>
+    </BrowserRouter>
   );
 }
 

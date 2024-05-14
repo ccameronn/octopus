@@ -2,6 +2,9 @@ import "./LeaderBoard.scss";
 import { useState } from "react";
 import { Link } from "react-router-dom";
 import NationalBoard from "../NationalBoard/NationalBoard";
+import LocalBoard from "../LocalBoard/LocalBoard";
+import FriendsBoard from "../FriendsBoard/FriendsBoard";
+import NewGroup from "../AddNewGroup/NewGroup";
 
 function LeaderBoard() {
   const [selectedOption, setSelectedOption] = useState("");
@@ -37,9 +40,9 @@ function LeaderBoard() {
       {selectedOption && (
         <div>
           {selectedOption === "national" && <NationalBoard />}
-          {selectedOption === "local" && <p>Local leaderboard</p>}
-          {selectedOption === "friends" && <p>Friends leaderboard</p>}
-          {selectedOption === "newGroup" && <p>Create a new group</p>}
+          {selectedOption === "local" && <LocalBoard />}
+          {selectedOption === "friends" && <FriendsBoard />}
+          {selectedOption === "newGroup" && <NewGroup />}
         </div>
       )}
     </div>
