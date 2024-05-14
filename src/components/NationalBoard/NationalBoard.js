@@ -1,5 +1,5 @@
 import "./NationalBoard.scss";
-import RankIcon from "../../assests/icons/toggle-arrow-right-svgrepo-com.svg";
+import RankIcon from "../../assets/icons/toggle-arrow-right-svgrepo-com.svg";
 
 function NationalBoard() {
   return (

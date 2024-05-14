@@ -22,7 +22,7 @@ function NewGroup() {
           </div> */}
         </div>
         <div className="rankings">
-          <p>Start a new trend with your friends</p>
+          <p>Start a green trend with your friends</p>
         </div>
       </div>
     </div>

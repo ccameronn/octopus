@@ -1,5 +1,5 @@
 import "./FriendsBoard.scss";
-import RankIcon from "../../assests/icons/toggle-arrow-right-svgrepo-com.svg";
+import RankIcon from "../../assets/icons/toggle-arrow-right-svgrepo-com.svg";
 
 function FriendsBoard() {
   return (
@@ -22,7 +22,7 @@ function FriendsBoard() {
           </div>
         </div>
         <div className="rankings">
-          <p>Out of 1,400,000 national users</p>
+          <p>Out of your group of 67 - 'My Friends'</p>
         </div>
       </div>
     </div>

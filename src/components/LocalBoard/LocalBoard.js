@@ -1,5 +1,5 @@
 import "./LocalBoard.scss";
-import RankIcon from "../../assests/icons/toggle-arrow-right-svgrepo-com.svg";
+import RankIcon from "../../assets/icons/toggle-arrow-right-svgrepo-com.svg";
 
 function LocalBoard() {
   return (
@@ -22,7 +22,7 @@ function LocalBoard() {
           </div>
         </div>
         <div className="rankings">
-          <p>Out of 1,400,000 national users</p>
+          <p>Out of 20,000 local users</p>
         </div>
       </div>
     </div>

@@ -1,3 +1,5 @@
+@use "../../styles/partials/variables" as *;
+
 .ranks__container {
   background-color: #180048;
   padding-bottom: 40px;
@@ -21,7 +23,7 @@
 .rankings p {
   padding: 0;
   margin: 0;
-  color: #fff;
+  color: $Octo-Grey;
   word-spacing: 5px;
   text-align: center;
 }
@@ -37,7 +39,7 @@
 }
 
 .score__number-container {
-  background-color: green;
+  background-color: $Octo-Green;
   width: 60px;
   height: 60px;
   border-radius: 70px;
@@ -45,7 +47,7 @@
 
 .score__number-container h2 {
   background-color: #1fe0;
-  color: #fff;
+  color: $Octo-Purple-Dark;
   text-align: center;
   margin-top: 16px;
 }
